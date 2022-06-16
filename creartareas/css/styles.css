@@ -25,7 +25,13 @@ header .contenedor-input .tareas {
     padding: 20px;
     font-size: 16px;
 }
-
+header .contenedor-input .error {
+    width: 50%;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    border: 3px solid brown;
+}
 header .btn {
     width: 10%;
     padding: 20px;
@@ -61,5 +67,11 @@ main ul li a{
     text-decoration: none;
     display: block;
     margin-bottom: 30px;
+    font-size: 20px;
 }
+
+main ul li a:hover {
+    color: crimson;
+}
+
 
